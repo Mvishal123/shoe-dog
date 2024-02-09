@@ -1,8 +1,16 @@
+import Navbar from "./components/navbar";
+import Landing from "./sections/landing";
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <div className="relative">
+      <Navbar />
 
-export default App
+      <section>
+        <Landing />
+      </section>
+    </div>
+  );
+};
+
+export default App;
